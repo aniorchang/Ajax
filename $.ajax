@@ -1,0 +1,18 @@
+$.ajax({
+    //请求的类型，post 或者 get
+    type: "post",
+    //请求的地址
+    url: "test.php",
+    //要发送的数据
+    data: {key: value},
+    //预期的返回的数据的格式（类型） json xml text script jsonp
+    dataType: "json",
+    //请求成功之后的回调函数
+    success: function(data){
+        //data就是从后台获取到的数据
+    },
+    //请求出错的回调函数
+    error: function(){
+
+    }
+})
